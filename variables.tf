@@ -1,5 +1,6 @@
 variable "boundary_addr" {
   type = string
+  default = "https://cae7e5ae-853f-4826-8b6b-03eea7348849.boundary.hashicorp.cloud"
 }
 
 variable "password_auth_method_login_name" {
